@@ -23,7 +23,7 @@ export default class Bar extends React.Component {
             alignItems: "center",
             width: discountInss + "%",
             height: "40px",
-            backgroundColor: "#e67e22",
+            backgroundColor: "#ffa726",
             color: "white",
           }}
         >
@@ -36,7 +36,7 @@ export default class Bar extends React.Component {
             alignItems: "center",
             width: discountIrpf + "%",
             height: "40px",
-            backgroundColor: "#c0392b",
+            backgroundColor: "#ef9a9a",
           }}
         >
            {discountIrpf.toFixed(2) !== '0.00' && discountIrpf.toFixed(2) + "%"}
@@ -48,7 +48,7 @@ export default class Bar extends React.Component {
             alignItems: "center",
             width: salarioLiquido + "%",
             height: "40px",
-            backgroundColor: "#16a085",
+            backgroundColor: "#80cbc4 ",
           }}
         >
           {salarioLiquido.toFixed(2) !== '0.00' && salarioLiquido.toFixed(2) + "%"}

@@ -92,15 +92,15 @@ function calculateSalaryFrom(fullSalary) {
   const baseIRPF = baseINSS - discountINSS;
   const discountIRPF = calculateDiscountIRPF(baseIRPF);
 
-  const netSalary = baseINSS - discountINSS - discountIRPF;
+  const salarioLiquido = baseINSS - discountINSS - discountIRPF;
 
   return {
     baseINSS,
     discountINSS,
     baseIRPF,
     discountIRPF,
-    netSalary,
+    salarioLiquido,
   };
 }
 
-export { calculateSalaryFrom};
+export { calculateSalaryFrom };
