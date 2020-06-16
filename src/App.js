@@ -63,14 +63,14 @@ export default class App extends Component {
         <h3 className="center">Cálculo Salarial</h3>
         <div className="row">
           <div className="input-field col s11">
-            <i className="material-icons prefix indigo-text text-darken-1">
+            <i className="material-icons prefix blue-text text-darken-1">
               attach_money
             </i>
 
             <InputFullSalary inputValue={this.handleChangeValue} />
 
             <label
-              className="active indigo-text text-darken-1"
+              className="active blue-text text-darken-1"
               htmlFor="salarioBruto"
             >
               Digite o salário bruto
