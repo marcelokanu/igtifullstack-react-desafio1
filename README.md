@@ -1,3 +1,5 @@
+<img src="igti-react1.gif" alt="react1" width="100%">
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
